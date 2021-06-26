@@ -1,0 +1,47 @@
+#!/bin/bash
+# copyright by mr virus spm
+
+sleep 2
+figlet TROJANS
+echo
+echo "           { trojans }"
+echo "++++++++++++++++++++++++++++++++++"
+echo "         by mr virus spm"
+echo
+echo "[1] MALWARE"
+echo "[2] BOTLHOOP"
+echo "[3] ELIT"
+echo "[4] DRAGON"
+echo "[5] SNACK"
+echo
+read -p "=> " virus
+if [[ $virus == "1" ]]; then
+read -p "masukan no target => " nomor
+while [[ true ]]; do
+echo "sand malware ke nomor $nomor berhail sempurna"
+done
+fi
+if [[ $virus == "2" ]]; then
+read -p "masukan no target => " nomor
+while [[ true ]]; do
+echo "sand virus bootlop ke nomor $nomor berhail sempurna"
+done
+fi
+if [[ $virus == "3" ]]; then
+read -p "masukan no target => " nomor
+while [[ true ]]; do
+echo "sand elit virus ke nomor $nomor berhail sempurna"
+done
+fi
+if [[ $virus == "4" ]]; then
+read -p "masukan no target => " nomor
+while [[ true ]]; do
+echo "sand virus dragon ke nomor $nomor berhail sempurna ✓✓✓"
+done
+fi
+if [[ $virus == "5" ]]; then
+read -p "masukan no target => " nomor
+while [[ true ]]; do
+echo "sand snack virus ke nomor $nomor berhail sempurna"
+done
+fi
